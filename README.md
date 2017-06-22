@@ -77,8 +77,27 @@ This will only return the float of the parameter in scientific notation form, wi
 
 **Again, your parameter must be surrounded with quotes for this to work properly.**
 ```javascript
-Mathf.pwr("0000973621") // 9.73621
-Mathf.pwr("34324343223545645") // 3.4324343223545646
-Mathf.pwr("888888") // 8.88888
+Mathf.toNotation("0000973621") // 9.73621
+Mathf.toNotation("34324343223545645") // 3.4324343223545646
+Mathf.toNotation("888888") // 8.88888
+```
+
+### ```fromNotation```
+##### [ COMING SOON || FIXING BUGS ]
+
+### ```cm2ft```
+Converts parameter (cm) into (ft)
+```javascript
+Mathf.cm2ft(10) // 0.32808400000000004
+Mathf.cm2ft(30.48) // 1.000000032
+Mathf.cm2ft(999) // 32.7755916
+```
+
+### ```ft2cm```
+Converts parameter (ft) into (cm)
+```javascript
+Mathf.ft2cm(10) // 304.8
+Mathf.ft2cm(30.48) // 929.0304
+Mathf.ft2cm(999) // 30449.52
 ```
 
