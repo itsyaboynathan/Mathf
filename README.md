@@ -58,7 +58,7 @@ Mathf.pwr(13, 8) // 815730721
 ### ```toNotationStr ``` 
 ##### [ STILL UNDER DEVELOPMENT ]
 Will turn your given parameter into a scientific notation but will be in the form of a string.
-Note: The number between the parenthsis is the power of the number beside it, for example 10(7) 
+Note: The number between the parentheses is the power of the number beside it, for example 10(7) 
 would be 10 to the power of 7.
 
 **Your parameter must be surrounded with quotes for this to work properly.**
@@ -71,3 +71,14 @@ Mathf.toNotationStr("888888") // 8.88888 * 10(5)
 Mathf.toNotationStr("10000") will return incorrect value.
 Mathf.toNotationStr("100001") will also return incorrect value.
 ```
+
+### ```toNotation```
+This will only return the float of the parameter in scientific notation form, without including the tenth power required to revert it back to its original self. 
+
+**Again, your parameter must be surrounded with quotes for this to work properly.**
+```javascript
+Mathf.pwr("0000973621") // 9.73621
+Mathf.pwr("34324343223545645") // 3.4324343223545646
+Mathf.pwr("888888") // 8.88888
+```
+
