@@ -380,10 +380,17 @@ const flitered = Mathf.lose(new Employee("John",21,"Software Engineer"), "age", 
 ```
 
 ```javascript
-// original
 return `${original.age} | ${original.name} | {original.department}` 
 // 21 | John | Software Engineer
 
 return `${flitered.age} | ${flitered.name} | {flitered.department}` 
 // undefined | undefined | Software Engineer
+```
+
+### ```break```
+This will break an array into smaller arrays with the capacity of parameter.
+```javascript
+Mathf.break([1,2,3,4,5,6,7], 2) // [ [1,2], [3,4], [5,6], [7] ] 
+Mathf.break([1,2,3,4,5,6,7], 7) // [ [1,2,3,4,5,6,7] ] 
+Mathf.break([1,2,3,4,5,6,-20], 4) // [ [1,2,3,4], [5,6,-20] ]
 ```
