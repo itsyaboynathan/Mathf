@@ -6,34 +6,34 @@
 
 ### Documentation & Content
 All functions and methods
-- sqrd 
-- pwr
-- toNotationStr
-- toNotation
-- fromNotation
-- cm2ft
-- ft2cm
-- gall2litre
-- litre2gall
-- radians
-- degrees
-- PI
-- isPwrTwo
-- decimalToBin
-- txtToAsc
-- ascToTxt
-- logBase
-- E
-- toFahrenheit
-- toKelvin
-- random
-- seed
-- parityArray
-- median
-- range
-- mean
-- parity
-- toJSON
+- ```sqrd ```
+- ```pwr```
+- ```toNotationStr```
+- ```toNotation```
+- ```fromNotation```
+- ```cm2ft```
+- ```ft2cm```
+- ```gall2litre```
+- ```litre2gall```
+- ```radians```
+- ```degrees```
+- ```PI```
+- ```isPwrTwo```
+- ```decimalToBin```
+- ```txtToAsc```
+- ```ascToTxt```
+- ```logBase```
+- ```E```
+- ```toFahrenheit```
+- ```toKelvin```
+- ```random```
+- ```seed```
+- ```parityArray```
+- ```median```
+- ```range```
+- ```mean```
+- ```parity```
+- ```toJSON```
 
 ### Usage and Information
 Mathf has no dependency's. It can be used by calling the object Mathf with your desired function and parameter. Here are some 
@@ -149,7 +149,7 @@ Mathf.clamp(-10, 1, 5) // 1
 ```
 
 ### ```isPwrTwo```
-Checks if a parameter is a power of two, if it is, it will return true.
+Checks if a parameter is a power of two, if it is, it will return ```true```.
 ```javascript
 Mathf.isPwrTwo(2) // true
 Mathf.isPwrTwo(16) // true
@@ -229,7 +229,7 @@ Mathf.seed(30) // 818258243146673822531264199559
 ```
 
 ### ```parityArray```
-Returns true if the amount of items in an array is an equal number.
+Returns ```true``` if the amount of items in an array is an equal number.
 ```javascript
 Mathf.parityArray([1,2,3) // false
 Mathf.parityArray(["a","b") // true
@@ -261,7 +261,7 @@ Mathf.avg([1,3,7,9,2,88]) // 18.333333333333332
 ```
 
 ### ```parity```
-Returns true if a number is even and false if it isn't.
+Returns ```true``` if a number is even and ```false``` if it isn't.
 ```javascript
 Mathf.parity(2) // true
 Mathf.parity(7) // false
