@@ -34,6 +34,16 @@ All functions and methods
 - ```mean```
 - ```parity```
 - ```toJSON```
+- ```add``` 
+- ```multiply```
+- ```expand```
+- ```aprox```
+- ```arrClampValue```
+- ```arrLock```
+- ```toObject```
+- ```flatten```
+- ```lose```
+
 
 ### Usage and Information
 Mathf has no dependency's. It can be used by calling the object Mathf with your desired function and parameter. Here are some 
