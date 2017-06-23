@@ -101,3 +101,67 @@ Mathf.ft2cm(30.48) // 929.0304
 Mathf.ft2cm(999) // 30449.52
 ```
 
+### ```gall2litre```
+Converts parameter (gallon) into (litre)
+```javascript
+Mathf.gall2litre(10) // 37.8541
+Mathf.gall2litre(30.48) // 115.3792968
+Mathf.gall2litre(999) // 3781.6245900000004
+```
+
+### ```litre2gall```
+Converts parameter (litre) into (gallon)
+```javascript
+Mathf.litre2gall(10) // 2.6417200000000003
+Mathf.litre2gall(30.48) // 8.051962560000002
+Mathf.litre2gall(999) // 263.907828
+```
+
+### ```radians```
+Converts parameter (degree) into (radian)
+```javascript
+Mathf.radians(10) // 0.17453300000000002
+Mathf.radians(30.48) // 0.531976584
+Mathf.radians(90) // 1.5707970000000002
+```
+
+### ```degree```
+Converts parameter (radian) into (degree)
+```javascript
+Mathf.degree(10) // 572.958
+Mathf.degree(30.48) // 1746.375984
+Mathf.degree(90) // 5156.622
+```
+
+### ```PI```
+Value of PI
+```javascript
+Mathf.PI // 3.14159265359
+```
+
+
+### ```clamp```
+Clamps a given parameter between a minimum and maximum int.
+```javascript
+Mathf.clamp(8, 1, 5) // 5
+Mathf.clamp(3, 1, 5) // 3
+Mathf.clamp(-10, 1, 5) // 1
+```
+
+### ```isPwrTwo```
+Checks if a parameter is a power of two, if it is, it will return true.
+```javascript
+Mathf.isPwrTwo(2) // true
+Mathf.isPwrTwo(16) // true
+Mathf.isPwrTwo(1) // false
+```
+
+### ```isPwrTwo```
+Converts decimal to binary.
+```javascript
+Mathf.decimalToBin(99) // 1100011
+Mathf.decimalToBin(4543) // 1000110111111
+Mathf.decimalToBin(19) // 10011
+```
+
+
