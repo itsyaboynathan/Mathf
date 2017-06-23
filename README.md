@@ -65,7 +65,7 @@ Mathf.pwr(7, 2) // 49
 Mathf.pwr(13, 8) // 815730721
 ```
 
-### ```toNotationStr ``` 
+### ```toNotationStr``` 
 ##### [ STILL UNDER DEVELOPMENT ]
 Will turn your given parameter into a scientific notation but will be in the form of a string.
 Note: The number between the parentheses is the power of the number beside it, for example 10(7) 
