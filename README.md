@@ -339,6 +339,38 @@ const newObj = Mathf.toObject(["Hello","Bye"]);
 return newObj.Hello // { Bye }
 ```
 ```javascript
-const newObj = Mathf.toObject(["Key0"]) // this will equal null and will not work when called.
+const newObj = Mathf.toObject(["Key0"]) // null
+```
+
+### ```flatten```
+This will conjoin mulitple arrays within an array.
+__ current issue: doesn't work if objects are included in array just yet __
+```javascript
+Mathf.flatten([[1,2,3,4],["one","two",3]]) // [1,2,3,4,"one","two",3]
+Mathf.flatten([["hello"],[38127649]]) // ["hello",38127649]
+Mathf.flatten([[10,11],[12,13],[19,20]]) // [10,11,12,13,19,20]
+```
+
+### ```lose```
+This will remove the given key from an object.
+```javascript
+/* We will create an object template to demonstrate use. */
+function Employee(name, age, department) {
+  this.name = name,
+  this.age = age,
+  this.department = department
+};
+```
+
+```javascript
+/* We'll create default object... */
+const original = new Employee("John",21,"Software Engineer");
+/* and our object with our key removed.. */
+const flitered = Mathf.lose(new Employee("John",21,"Software Engineer"), "age");
+```
+
+```javascript
+return original.age // 21
+return flitered.age // undefined
 
 ```
