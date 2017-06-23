@@ -6,43 +6,43 @@
 
 ### Documentation & Content
 All functions and methods
-- ``` [sqrd](#sqrd) ```
-- ```pwr```
-- ```toNotationStr```
-- ```toNotation```
-- ```fromNotation```
-- ```cm2ft```
-- ```ft2cm```
-- ```gall2litre```
-- ```litre2gall```
-- ```radians```
-- ```degrees```
-- ```PI```
-- ```isPwrTwo```
-- ```decimalToBin```
-- ```txtToAsc```
-- ```ascToTxt```
-- ```logBase```
-- ```E```
-- ```toFahrenheit```
-- ```toKelvin```
-- ```random```
-- ```seed```
-- ```parityArray```
-- ```median```
-- ```range```
-- ```mean```
-- ```parity```
-- ```toJSON```
-- ```add``` 
-- ```multiply```
-- ```expand```
-- ```aprox```
-- ```arrClampValue```
-- ```arrLock```
-- ```toObject```
-- ```flatten```
-- ```lose```
+- > [sqrd](#sqrd) 
+- [pwr](#pwr)
+- [toNotationStr](#toNotationStr)
+- [toNotation](#toNotation)
+- [fromNotation](#fromNotation)
+- [cm2ft](#cm2ft)
+- [ft2cm](#ft2cm)
+- [gall2litre](#gall2litre)
+- [litre2gall](#litre2gall)
+- [radians](#radians)
+- [degrees](#degrees)
+- [PI](#PI)
+- [isPwrTwo](#isPwrTwo)
+- [decimalToBin](#decimalToBin)
+- [txtToAsc](#txtToAsc)
+- [ascToTxt](#ascToTxt)
+- [logBase](#logBase)
+- [E](#E)
+- [toFahrenheit](#toFahrenheit)
+- [toKelvin](#toKelvin)
+- [random](#random)
+- [seed](#seed)
+- [parityArray](#parityArray)
+- [median](#median)
+- [range](#range)
+- [mean](#mean)
+- [parity](#parity)
+- [toJSON](#toJSON)
+- [add](#add) 
+- [multiply](#multiply)
+- [expand](#expand)
+- [aprox](#aprox)
+- [arrClampValue](#arrClampValue)
+- [arrLock](#arrLock)
+- [toObject](#toObject)
+- [flatten](#flatten)
+- [lose](#lose)
 
 
 ### Usage and Information
