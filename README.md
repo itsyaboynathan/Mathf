@@ -78,8 +78,8 @@ Mathf.toNotationStr("0000973621") // 9.73621 * 10(-4)
 Mathf.toNotationStr("888888") // 8.88888 * 10(5)
 
 /* Known Issues */
-Mathf.toNotationStr("10000") will return incorrect value.
-Mathf.toNotationStr("100001") will also return incorrect value.
+Mathf.toNotationStr("10000") // will return incorrect value.
+Mathf.toNotationStr("100001") // will also return incorrect value.
 ```
 
 ### ```toNotation```
