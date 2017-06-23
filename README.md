@@ -378,7 +378,7 @@ const original = new Employee("John",21,"Software Engineer");
 const x = new Employee("John",21,"Software Engineer");
 
 /* and our object with our key/s removed.. */
-const flitered = Mathf.lose( , "age", "name");
+const flitered = Mathf.lose(x, "age", "name");
 ```
 
 ```javascript
