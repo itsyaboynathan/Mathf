@@ -6,7 +6,7 @@
 
 ### Documentation & Content
 All functions and methods
-- ```sqrd ```
+- ```sqrd ```(#sqrd)
 - ```pwr```
 - ```toNotationStr```
 - ```toNotation```
