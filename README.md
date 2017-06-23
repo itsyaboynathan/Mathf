@@ -1,4 +1,4 @@
-<img src="http://i.imgur.com/kUZpIRx.png"></img>
+<img src="http://i.imgur.com/wOgavLA.png"></img>
 > A library for math, conversion and other miscellaneous functions/uses.
 
 ### Installation
