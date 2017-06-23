@@ -172,6 +172,7 @@ Mathf.txtToAsc("Hello") // 72,101,108,108,111
 Mathf.txtToAsc("Mathf is the best") // 77,97,116,104,102,32,105,115,32,116,104,101,32,98,101,115,116
 Mathf.txtToAsc("dutyasvdtagwb") // 100,117,116,121,97,115,118,100,116,97,103,119,98
 ```
+
 ### ```ascToTxt```
 Converts ascii to text.
 ```javascript
@@ -180,6 +181,49 @@ Mathf.ascToTxt([77,97,116,104,102,32,105,115,32,116,104,101,32,98,101,115,116]) 
 Mathf.ascToTxt([100,117,116,121,97,115,118,100,116,97,103,119,98]) // dutyasvdtagwb
 ```
 
+### ```logBase```
+Get base (parameter) logarithm of (parameter).
+__Logarithms in javascript arent always perfectly accurate but are only usually slightly off.__
+```javascript
+Mathf.logBase(10, 1000) // 2.9999999999999996 (Note: Would be 3 if js Logarithms were perfect)
+Mathf.logBase(8, 3) //  0.5283208335737187
+Mathf.logBase(9, 4) //  0.6309297535714574
+```
 
+### ```E```
+The value of E.
+```javascript
+Mathf.E // 2.7182818284590452353602875
+```
 
+### ```toFahrenheit```
+Converts Celsius to Fahrenheit
+```javascript
+Mathf.toFahrenheit(100) // 212
+Mathf.toFahrenheit(70) // 158
+Mathf.toFahrenheit(30) // 86
+```
 
+### ```toKelvin```
+Converts Celsius to Kelvin
+```javascript
+Mathf.toKelvin(100) // 373
+Mathf.toKelvin(70) // 343
+Mathf.toKelvin(30) // 303
+```
+
+### ```random```
+Chooses a random number between parameter one and parameter two.
+```javascript
+Mathf.random(1, 20) // 3
+Mathf.random(1, 20) // 10
+Mathf.random(10, 40) // 33
+```
+
+### ```seed```
+Generates random seed of numbers with length set to given parameter.
+```javascript
+Mathf.seed(2) // 74
+Mathf.seed(10) // 4828821837
+Mathf.seed(30) // 818258243146673822531264199559
+```
