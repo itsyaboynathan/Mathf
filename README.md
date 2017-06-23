@@ -344,7 +344,7 @@ const newObj = Mathf.toObject(["Key0"]) // null
 
 ### ```flatten```
 This will conjoin mulitple arrays within an array.
-__ current issue: doesn't work if objects are included in array just yet __
+__current issue: doesn't work if objects are included in array just yet__
 ```javascript
 Mathf.flatten([[1,2,3,4],["one","two",3]]) // [1,2,3,4,"one","two",3]
 Mathf.flatten([["hello"],[38127649]]) // ["hello",38127649]
