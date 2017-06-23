@@ -362,7 +362,7 @@ Mathf.flatten([[10,11],[12,13],[19,20]]) // [10,11,12,13,19,20]
 ```
 
 ### ```lose```
-This will remove the given key from an object.
+This will remove the given key/s from an object.
 ```javascript
 /* We will create an object template to demonstrate use. */
 function Employee(name, age, department) {
@@ -375,12 +375,17 @@ function Employee(name, age, department) {
 ```javascript
 /* We'll create default object... */
 const original = new Employee("John",21,"Software Engineer");
-/* and our object with our key removed.. */
-const flitered = Mathf.lose(new Employee("John",21,"Software Engineer"), "age");
+/* and our object with our key/s removed.. */
+const flitered = Mathf.lose(new Employee("John",21,"Software Engineer"), "age", "name");
 ```
 
 ```javascript
+// original
 return original.age // 21
-return flitered.age // undefined
+return original.name // John
+return original.department // Software Engineer
 
+return flitered.age // undefined
+return flitered.name // undefined
+return flitered.department // Software Engineer
 ```
