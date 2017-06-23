@@ -8,7 +8,7 @@
 All functions and methods
 - [sqrd](#sqrd) 
 - [pwr](#pwr)
-- [toNotationStr](###toNotationStr)
+- [toNotationStr](#toNotationStr)
 - [toNotation](#toNotation)
 - [fromNotation](#fromNotation)
 - [cm2ft](#cm2ft)
