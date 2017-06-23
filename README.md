@@ -381,11 +381,7 @@ const flitered = Mathf.lose(new Employee("John",21,"Software Engineer"), "age", 
 
 ```javascript
 // original
-return original.age // 21
-return original.name // John
-return original.department // Software Engineer
+return `${original.age} | ${original.name} | {original.department}` // 21 | John | Software Engineer
 
-return flitered.age // undefined
-return flitered.name // undefined
-return flitered.department // Software Engineer
+return `${flitered.age} | ${flitered.name} | {flitered.department}` // undefined | undefined | Software Engineer
 ```
