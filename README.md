@@ -271,7 +271,74 @@ Mathf.parity(14) // true
 ### ```toJSON```
 Converts array or object to JSON standards.
 ```javascript
-Mathf.parity({one: "two"}) // {"one":"two"}
-Mathf.parity(['hello', 'hi']) // ["hello","hi"]
-Mathf.parity(['1','2','3']) // ["1","2","3"]
+Mathf.toJSON({one: "two"}) // {"one":"two"}
+Mathf.toJSON(['hello', 'hi']) // ["hello","hi"]
+Mathf.toJSON(['1','2','3']) // ["1","2","3"]
+```
+
+### ```add```
+Adds all numerical values in an array together.
+```javascript
+Mathf.add([1,2,3]) // 6
+Mathf.add([3,3,3]) // 9
+Mathf.add([8,8,8,8]) // 32
+```
+
+
+### ```multiply```
+Multiplies all numerical values in an array by each other.
+```javascript
+Mathf.multiply([3,3,3]) // 27
+Mathf.multiply([7,7]) // 49
+Mathf.multiply([1,2,3,54,9]) // 2916
+```
+
+### ```expand```
+Converts given integer into an array of 1's.
+```javascript
+Mathf.expand(10) // [1,1,1,1,1,1,1,1,1,1]
+Mathf.expand(5) // [1,1,1,1,1]
+Mathf.expand(3) // [1,1,1]
+```
+
+### ```aprox```
+Compares two numerical values to see if they are similar. 
+```javascript
+Mathf.aprox(1.9,1.2) // true
+Mathf.aprox(2.9,1.2) // false
+Mathf.aprox(2.111111,2.999999) // true
+```
+
+### ```arrClampValue```
+Clamps the values of each numerical value in an array between (min) and (max).
+```javascript
+Mathf.arrClampValue([1,2,3,4,5,6,7,8],3,6) // [3,3,3,4,5,6,6,6]
+Mathf.arrClampValue([2,999,1001,1000,-30],0,999) // [2,999,999,999,0]
+Mathf.arrClampValue([1,2,3,4,5],1,5) // [1,2,3,4,5]
+```
+
+### ```arrLock```
+Returns all array items within the maximum limit given.
+```javascript
+Mathf.arrLock([1,2,3,4,5,6,7,8],3) // [1,2,3]
+Mathf.arrLock([99,88,342,-234,99,1,2,3,4,5], 4) // [99,88,342,-234]
+Mathf.arrLock([9387432,78324893274,2398473298,234823732], 0) // []
+```
+
+### ```toObject```
+Converts every two array items into an objects key and value. If the array is not equal 
+there will not be a value for one of the keys so it will return ```null```.
+```javascript
+const newObj = Mathf.toObject(["Key0","Val0","Key1","Val1","Key2","Val2"]);
+
+return newObj.Key0 // { Val0 }
+```
+```javascript
+const newObj = Mathf.toObject(["Hello","Bye"]);
+
+return newObj.Hello // { Bye }
+```
+```javascript
+const newObj = Mathf.toObject(["Key0"]) // this will equal null and will not work when called.
+
 ```
