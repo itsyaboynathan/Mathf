@@ -227,3 +227,51 @@ Mathf.seed(2) // 74
 Mathf.seed(10) // 4828821837
 Mathf.seed(30) // 818258243146673822531264199559
 ```
+
+### ```parityArray```
+Returns true if the amount of items in an array is an equal number.
+```javascript
+Mathf.parityArray([1,2,3) // false
+Mathf.parityArray(["a","b") // true
+Mathf.parityArray([1,2,3,4,5,6,7,8]) // true
+```
+
+### ```median```
+Calculates the median of a numerical array.
+```javascript
+Mathf.median([1,2,3,4,5]) // 3
+Mathf.median([1,2,3,4,5,6]) // 3.5
+Mathf.median([1,2,3]) // 2
+```
+
+### ```range```
+Calculates the range of a numerical array.
+```javascript
+Mathf.range([3,5,9,8,4]) // 5
+Mathf.range([80,1,6,9,45,2,3]) // 79
+Mathf.range([-80,3000,2,3,8,8343]) // 8423
+```
+
+### ```avg```
+Calculates the arithmetic mean/average of a numerical array.
+```javascript
+Mathf.avg([3,5,9,8,4]) // 5.8
+Mathf.avg([100,-99,-3,2,4,8]) // 2
+Mathf.avg([1,3,7,9,2,88]) // 18.333333333333332
+```
+
+### ```parity```
+Returns true if a number is even and false if it isn't.
+```javascript
+Mathf.parity(2) // true
+Mathf.parity(7) // false
+Mathf.parity(14) // true
+```
+
+### ```toJSON```
+Converts array or object to JSON standards.
+```javascript
+Mathf.parity({one: "two"}) // {"one":"two"}
+Mathf.parity(['hello', 'hi']) // ["hello","hi"]
+Mathf.parity(['1','2','3']) // ["1","2","3"]
+```
