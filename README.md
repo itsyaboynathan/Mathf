@@ -156,12 +156,30 @@ Mathf.isPwrTwo(16) // true
 Mathf.isPwrTwo(1) // false
 ```
 
-### ```isPwrTwo```
+### ```decimalToBin```
 Converts decimal to binary.
 ```javascript
 Mathf.decimalToBin(99) // 1100011
 Mathf.decimalToBin(4543) // 1000110111111
 Mathf.decimalToBin(19) // 10011
 ```
+
+### ```txtToAsc```
+Converts text to ascii.
+__This will only convert letters, using numbers or symbols will not work.__
+```javascript
+Mathf.txtToAsc("Hello") // 72,101,108,108,111
+Mathf.txtToAsc("Mathf is the best") // 77,97,116,104,102,32,105,115,32,116,104,101,32,98,101,115,116
+Mathf.txtToAsc("dutyasvdtagwb") // 100,117,116,121,97,115,118,100,116,97,103,119,98
+```
+### ```ascToTxt```
+Converts ascii to text.
+```javascript
+Mathf.ascToTxt([72,101,108,108,111]) // Hello
+Mathf.ascToTxt([77,97,116,104,102,32,105,115,32,116,104,101,32,98,101,115,116]) // Mathf is the best
+Mathf.ascToTxt([100,117,116,121,97,115,118,100,116,97,103,119,98]) // dutyasvdtagwb
+```
+
+
 
 
