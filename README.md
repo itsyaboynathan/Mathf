@@ -8,9 +8,9 @@
 All functions and methods
 - [sqrd](#sqrd) 
 - [pwr](#pwr)
-- [toNotationStr](#toNotationStr)
-- [toNotation](#toNotation)
-- [fromNotation](#fromNotation)
+- [toNotationStr](#tonotationstr)
+- [toNotation](#tonotation)
+- [fromNotation](#fromnotation)
 - [cm2ft](#cm2ft)
 - [ft2cm](#ft2cm)
 - [gall2litre](#gall2litre)
