@@ -375,15 +375,17 @@ function Employee(name, age, department) {
 ```javascript
 /* We'll create default object... */
 const original = new Employee("John",21,"Software Engineer");
+const x = new Employee("John",21,"Software Engineer");
+
 /* and our object with our key/s removed.. */
-const flitered = Mathf.lose(new Employee("John",21,"Software Engineer"), "age", "name");
+const flitered = Mathf.lose( , "age", "name");
 ```
 
 ```javascript
-return `${original.age} | ${original.name} | {original.department}` 
+return `${original.age} | ${original.name} | ${original.department}` 
 // 21 | John | Software Engineer
 
-return `${flitered.age} | ${flitered.name} | {flitered.department}` 
+return `${flitered.age} | ${flitered.name} | ${flitered.department}` 
 // undefined | undefined | Software Engineer
 ```
 
