@@ -134,7 +134,7 @@ Mathf.gall2litre(30.48) // 115.3792968
 Mathf.gall2litre(999) // 3781.6245900000004
 ```
 
-### ```litre2gall```
+### ```javascript litre2gall```
 Converts parameter (litre) into (gallon)
 ```javascript
 Mathf.litre2gall(10) // 2.6417200000000003
