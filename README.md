@@ -414,3 +414,102 @@ Mathf.isOccupied([]) // false
 Mathf.isOccupied([1]) // true
 Mathf.isOccupied([{}] true
 ```
+
+### ```isolate```
+This will remove any duplicates from an array
+```javascript
+Mathf.isolate([1,1,1,1,1,2,3,4,55,5,5,5,5,5,5,5]) // [1,2,3,4,55,5]
+Mathf.isolate(["a", "a", "b", "b"]) // [a,b]
+Mathf.isolate(["a",1,"b",1,"c",1]) ["a",1,"b","c"]
+```
+
+### ```v```
+This will return all values from an object and stores them inside an array.
+```javascript
+Mathf.v({One:"O-N-E", Two:"T-W-O"}) // ["O-N-E", "T-W-O"]
+Mathf.v({One:1, Two:2, Three:3, Four:4}) // [1,2,3,4]
+Mathf.v({A: (sayhi) => {alert(sayhi)}, One:"Two", Three:3}) // ["(sayhi) => {alert(sayhi)}","Two",3]
+```
+
+### ```k```
+This will return all keys from an object and stores them inside an array.
+```javascript
+Mathf.v({One:"O-N-E", Two:"T-W-O"}) // ["One", "Two"]
+Mathf.v({One:1, Two:2, Three:3, Four:4}) // ["One","Two","Three","Four"]
+Mathf.v({A: (sayhi) => {alert(sayhi)}, One:"Two", Three:3}) // ["A","One","Three"]
+```
+
+### ```holdsKey```
+This will return true if the given key exists within an object.
+```javascript
+Mathf.holdsKey({One:1, Two:2}, "One") // true
+Mathf.holdsKey({One:1, Two:2}, "Three") // false
+Mathf.holdsKey({One:1, Two:2}, "2") // false
+```
+
+
+### ```tally```
+This will return the amount of items within an array.
+```javascript
+Mathf.tally([1,2,3,4]) // 4
+Mathf.tally(["one","two","three"]) // 3
+Mathf.tally([1,2,3,43,4,4,5,6554354353]) // 8
+```
+
+### ```flip```
+This will reverse/flip an array and return it.  
+```javascript
+Mathf.flip([1,2,3,4,5,6]) // [6,5,4,3,2,1]
+Mathf.flip(["one","two","three"]) // ["three", "two", "one"]
+Mathf.flip([1,1,1,2,3,44,44,44]) // [44,44,44,3,2,1,1,1]
+```
+
+### ```randomArr```
+This will pick a random array element and return it.
+```javascript
+Mathf.randomArr([1,2,3,4,5,6]) // [1]
+Mathf.randomArr([1,2,3,4,5,6]) // [5]
+Mathf.randomArr(["one", "two", "three"]) // ["one"]
+```
+
+### ```insert (arr, pos, item) ```
+This will insert a new item into an array with its position as (parameter).
+```javascript
+Mathf.insert([1,2,3,4,5], 3) // [1,2,3,"will be placed after given pos",4,5]
+Mathf.insert([1,2,3,4,5], 10) // [1,2,3,4,5,10]
+Mathf.insert(["one", "two"], 0, "zero") // ["zero", "one", "two"]
+```
+
+### ```init (arr) ```
+This returns the inital item in an array.
+```javascript
+Mathf.init([1,2,3,4,5]) // [1]
+Mathf.init([5,4,3,2,1]) // [5]
+Mathf.init(["one", "two"]) // ["one"]
+```
+
+### ```app (arr, item) ```
+This will append a given item to the end of an array.
+```javascript
+Mathf.app([1,2,3,4,5], 6) // [1,2,3,4,5,6]
+Mathf.app(["one", "two"], "three") // ["one","two","three"]
+Mathf.app([1,"a","b",2], "h e l l o") // [1,"a","b",2,"h e l l o"]
+```
+
+### ```grabVal (obj, key) ```
+This will return the value of the given key.
+```javascript
+Mathf.grabVal({One:1, Two:2, Three:3}, "One") // 1
+Mathf.grabVal({One:1, Two:2, Three:3}, "Two") // 2
+Mathf.grabVal({One:1, Two:2, Three:3}, "Three") // 3
+```
+
+### ```grabKey (obj, val) ```
+This will return the key of a given value.
+```javascript
+Mathf.grabKey({One:1, Two:2, Three:3}, 1) // One
+Mathf.grabKey({One:1, Two:2, Three:3}, 2) // Two
+Mathf.grabKey({One:1, Two:2, Three:3}, 3) // Three
+```
+
+
