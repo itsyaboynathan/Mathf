@@ -53,11 +53,11 @@ All functions and methods
 - [tally](#tally)
 - [flip](#flip)
 - [randomArr](#randomarr)
-- [insert](#insert)
-- [init](#init)
-- [app](#app)
-- [grabVal](#grabval)
-- [grabKey](#grabkey)
+- [insert](#insert-arr-pos-item)
+- [init](#init-arr)
+- [app](#app-arr-item)
+- [grabVal](#grabkey-obj-key)
+- [grabKey](#grabkey-obj-val)
 
 
 ### Usage and Information
