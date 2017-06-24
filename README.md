@@ -1,5 +1,5 @@
 <img src="http://i.imgur.com/CuMbiu7.png"></img>
-> A library for math, conversion and other miscellaneous functions/uses.
+> A library for math, conversion, arrays, objects and other miscellaneous functions/uses.
 
 ### Installation
 [ Content ]
