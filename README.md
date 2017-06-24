@@ -5,6 +5,7 @@
 [ Content ]
 
 ### Documentation & Content
+> A sorted and cleaner version of the documentation can be found here. https://tjksec.github.io/Mathf/docs/
 All functions and methods
 - [sqrd](#sqrd) 
 - [pwr](#pwr)
