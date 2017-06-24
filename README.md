@@ -43,6 +43,9 @@ All functions and methods
 - [toObject](#toobject)
 - [flatten](#flatten)
 - [lose](#lose)
+- [break](#break)
+- [isVacant](#isvacant)
+- [isOccupied](#isoccupied)
 
 
 ### Usage and Information
@@ -399,15 +402,15 @@ Mathf.break([1,2,3,4,5,6,-20], 4) // [ [1,2,3,4], [5,6,-20] ]
 ### ```isVacant```
 This will return ```true``` if the array is empty
 ```javascript
-Mathf.break([]) // true
-Mathf.break([1]) // false
-Mathf.break([{}] false
+Mathf.isVacant([]) // true
+Mathf.isVacant([1]) // false
+Mathf.isVacant([{}] false
 ```
 
 ### ```isOccupied```
 This will return ```true``` if the array is not empty
 ```javascript
-Mathf.break([]) // false
-Mathf.break([1]) // true
-Mathf.break([{}] true
+Mathf.isOccupied([]) // false
+Mathf.isOccupied([1]) // true
+Mathf.isOccupied([{}] true
 ```
