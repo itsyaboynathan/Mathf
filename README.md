@@ -395,3 +395,17 @@ Mathf.break([1,2,3,4,5,6,7], 2) // [ [1,2], [3,4], [5,6], [7] ]
 Mathf.break([1,2,3,4,5,6,7], 7) // [ [1,2,3,4,5,6,7] ] 
 Mathf.break([1,2,3,4,5,6,-20], 4) // [ [1,2,3,4], [5,6,-20] ]
 ```
+
+### ```isVacant```
+This will return ```true``` if the array is empty
+```javascript
+Mathf.break([]) // true
+Mathf.break([1]) // false
+Mathf.break([{}] false
+
+### ```isOccupied```
+This will return ```true``` if the array is not empty
+```javascript
+Mathf.break([]) // false
+Mathf.break([1]) // true
+Mathf.break([{}] true
