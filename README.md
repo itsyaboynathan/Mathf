@@ -402,6 +402,7 @@ This will return ```true``` if the array is empty
 Mathf.break([]) // true
 Mathf.break([1]) // false
 Mathf.break([{}] false
+```
 
 ### ```isOccupied```
 This will return ```true``` if the array is not empty
@@ -409,3 +410,4 @@ This will return ```true``` if the array is not empty
 Mathf.break([]) // false
 Mathf.break([1]) // true
 Mathf.break([{}] true
+```
