@@ -45,7 +45,19 @@ All functions and methods
 - [lose](#lose)
 - [break](#break)
 - [isVacant](#isvacant)
-- [isOccupied](#isoccupied)
+- [isolate](#isolate)
+- [v](#v)
+- [k](#k)
+- [holdsKey](#holdskey)
+- [holdsVal](#holdsval)
+- [tally](#tally)
+- [flip](#flip)
+- [randomArr](#randomarr)
+- [insert](#insert)
+- [init](#init)
+- [app](#app)
+- [grabVal](#grabval)
+- [grabKey](#grabkey)
 
 
 ### Usage and Information
