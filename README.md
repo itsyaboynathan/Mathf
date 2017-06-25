@@ -2,7 +2,30 @@
 > A library for math, conversion, arrays, objects and other miscellaneous functions/uses.
 
 ### Installation
-[ Content ]
+
+#### Download via NPM:
+https://www.npmjs.com/package/mathf-js
+``` npm install mathf-js ``` to install.
+and then add
+``` <script src="<your_file_structure>/node_modules/mathf-js/src/functions/math.min.js"></script>```
+to your html and your set!
+
+#### Clone via Github 
+Clone this repo and follow the npm instructions after intall.
+
+#### CDN
+Place one of the following into your html file.
+
+CDN to NPM
+```html
+<script src="https://cdn.jsdelivr.net/npm/mathf-js/src/functions/math.min.js"></script>
+```
+CDN to GITHUB
+```html
+<script src="https://cdn.rawgit.com/tjkSec/Mathf/d25f325f/math-js/src/functions/math.min.js"></script>
+```
+
+---
 
 ### Documentation & Content
 > A sorted and cleaner version of the documentation can be found here. https://tjksec.github.io/Mathf/docs/
