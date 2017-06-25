@@ -12,10 +12,10 @@ and then add
 ```
 to your html and your set!
 
-### Clone via Github 
+### Clone via GITHUB:
 Clone this repo and follow the npm instructions after intall.
 
-### CDN
+### CDN:
 Place one of the following into your html file.
 
 #### CDN to NPM
