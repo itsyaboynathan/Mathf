@@ -3,24 +3,26 @@
 
 ### Installation
 
-#### Download via NPM:
+### Download via NPM:
 https://www.npmjs.com/package/mathf-js
 ``` npm install mathf-js ``` to install.
 and then add
-``` <script src="<your_file_structure>/node_modules/mathf-js/src/functions/math.min.js"></script>```
+```html
+<script src="<your_file_structure>/node_modules/mathf-js/src/functions/math.min.js"></script>
+```
 to your html and your set!
 
-#### Clone via Github 
+### Clone via Github 
 Clone this repo and follow the npm instructions after intall.
 
-#### CDN
+### CDN
 Place one of the following into your html file.
 
-CDN to NPM
+#### CDN to NPM
 ```html
 <script src="https://cdn.jsdelivr.net/npm/mathf-js/src/functions/math.min.js"></script>
 ```
-CDN to GITHUB
+#### CDN to GITHUB
 ```html
 <script src="https://cdn.rawgit.com/tjkSec/Mathf/d25f325f/math-js/src/functions/math.min.js"></script>
 ```
