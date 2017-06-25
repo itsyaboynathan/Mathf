@@ -1,0 +1,35 @@
+{
+  "name": "mathf-js",
+  "version": "1.0.3",
+  "description": "A library for math, conversion, arrays, objects, conditioning and other miscellaneous functions/uses.",
+  "main": "math.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjkSec/Mathf.git"
+  },
+  "keywords": [
+    "mathf",
+    "math",
+    "arrays",
+    "objects",
+    "conditioning",
+    "library",
+    "api",
+    "docs",
+    "sqrd",
+    "notation",
+    "scientific",
+    "conversion",
+    "decimal",
+    "ascii"
+  ],
+  "author": "Trent Noskcaj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjkSec/Mathf/issues"
+  },
+  "homepage": "https://github.com/tjkSec/Mathf#readme"
+}

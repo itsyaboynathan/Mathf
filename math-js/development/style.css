@@ -1,0 +1,37 @@
+h1, p, button {
+	font-family: 'Spectral', serif;
+}
+
+h1 {
+	border-bottom: 2px solid darkgrey;
+	padding-bottom: 2px;
+	max-width: 30%;
+	color:black;
+	transition: max-width 0.2s;
+}
+
+h1:hover{
+	max-width: 40%;
+}
+
+p {
+	max-width: 80%;
+	font-size: 120%;
+}
+
+
+button {
+	width: 200px;
+	border-radius: 15px;
+	height:45px;
+	border:none;
+	color:black;
+	background-color: #dddddd;
+	transition: background-color 0.1s, transform 0.2s, border-radius 0.2s;
+}
+
+button:hover{
+	background-color:#c7dbf9;
+	transform:scale(1.07);
+	border-radius: 30px;
+}
