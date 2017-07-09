@@ -1,6 +1,8 @@
 <img src="http://i.imgur.com/CuMbiu7.png"></img>
 > A library for math, conversion, arrays, objects and other miscellaneous functions/uses.
 
+__NOTE: I turned most of these into prototyped functions but never got around to adding/finishing some things as you can see from some of the empty folders. If you want it you can download it here.__ https://www.dropbox.com/s/uwf4gbk6va4atqj/orbit.min.js?dl=0
+
 ### Installation
 [ Content ]
 
